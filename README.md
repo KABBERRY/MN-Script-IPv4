@@ -67,6 +67,8 @@
 
 <br>SOCIAL
 
+<br>Discord
+<br>https://discord.gg/D6KeMSA
 <br>Twitter
 <br>https://twitter.com/PrimeStone2
 <br>Telegram
