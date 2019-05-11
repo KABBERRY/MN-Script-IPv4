@@ -9,13 +9,15 @@ cat << "PSC"
 
 
 
-  _____   _____  _____        ___      _____ ______ _______ _    _ _____  
- |  __ \ / ____|/ ____|      |__ \    / ____|  ____|__   __| |  | |  __ \ 
- | |__) | (___ | |      __   __ ) |  | (___ | |__     | |  | |  | | |__) |
- |  ___/ \___ \| |      \ \ / // /    \___ \|  __|    | |  | |  | |  ___/ 
- | |     ____) | |____   \ V // /__   ____) | |____   | |  | |__| | |     
- |_|    |_____/ \_____|   \_/|____/  |_____/|______|  |_|   \____/|_|     
-                                                                                
+
+  _____   _____  _____   ___    ___     _____ ______ _______ _    _ _____  
+ |  __ \ / ____|/ ____| |__ \  |__ \   / ____|  ____|__   __| |  | |  __ \ 
+ | |__) | (___ | |         ) |    ) | | (___ | |__     | |  | |  | | |__) |
+ |  ___/ \___ \| |        / /    / /   \___ \|  __|    | |  | |  | |  ___/ 
+ | |     ____) | |____   / /_ _ / /_   ____) | |____   | |  | |__| | |     
+ |_|    |_____/ \_____| |____(_)____| |_____/|______|  |_|   \____/|_|     
+                                                                           
+                                                                              
  
  
 PSC
@@ -85,7 +87,7 @@ read wan
 					cd ~ &&
 					rm -fr primestone-cli primestoned primestone-tx prime_linux.zip &&
 					echo -e "${GREEN}2/5 Old Primestone wallet is deleted${NC}" &&
-					wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.1.0/prime_linux.zip &&
+					wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.2.0/prime_linux.zip &&
 					echo -e "${GREEN}3/5 Primestone wallet is downloaded${NC}" &&
 					unzip -o prime*.zip &&
 					sudo cp -fr primestone-cli primestoned /usr/bin/ &&
@@ -123,7 +125,7 @@ read wan
 					cd ~ &&
 					rm -fr primestone-cli primestoned primestone-tx prime_linux.zip &&
 					echo -e "${GREEN}2/5 Old Primestone wallet is deleted${NC}" &&
-					wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.1.0/prime_linux.zip &&
+					wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.2.0/prime_linux.zip &&
 					echo -e "${GREEN}3/5 Primestone wallet is downloaded${NC}" &&
 					unzip -o prime*.zip &&
 					sudo cp -fr primestone-cli primestoned /usr/bin/ &&
@@ -183,10 +185,10 @@ cd ~
 rm -fr prime*.zip
 rm -R -fr prime_linux
             if [ "$OS_version" -eq "1" ]; then
-                wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.1.0/prime_linux.zip
+                wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.2.0/prime_linux.zip
 		if [ $? -ne "0" ]; then echo "Failed to download primestoned binary" && exit 1; fi
             elif [ "$OS_version2" -eq "1" ]; then
-                wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.1.0/prime_linux.zip
+                wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.2.0/prime_linux.zip
 		if [ $? -ne "0" ]; then echo "Failed to download primestoned binary" && exit 1; fi
             fi
 # Manage coin daemon and configuration //
