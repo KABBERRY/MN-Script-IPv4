@@ -212,9 +212,15 @@ port=34124
 rpcallowip=127.0.0.1
 daemon=1
 masternode=1
-addnode=185.253.234.64
 addnode=185.17.42.25
-addnode=185.201.115.163
+addnode=185.17.42.26
+addnode=185.17.42.24
+addnode=185.17.42.5
+addnode=185.17.42.39
+addnode=185.17.42.40
+addnode=185.17.42.31
+addnode=185.17.42.37
+
 EOF
 
 #Create primecore.service
@@ -318,9 +324,15 @@ daemon=1
 masternode=1
 masternodeaddr=$wanip
 masternodeprivkey=$privkey
-addnode=185.253.234.64
 addnode=185.17.42.25
-addnode=185.201.115.163
+addnode=185.17.42.26
+addnode=185.17.42.24
+addnode=185.17.42.5
+addnode=185.17.42.39
+addnode=185.17.42.40
+addnode=185.17.42.31
+addnode=185.17.42.37
+
 EOF
 
 # Firewall //
