@@ -4,7 +4,7 @@
 #:: Copyright // 2019-01-01
 #:: Version: v2.5
 #:: Tested on Ubuntu 18.04 & Ubuntu 16.04
-cat << "KKC"
+cat << "PSC"
 
 
 
@@ -206,7 +206,7 @@ cd ~
 mkdir -p ~/.primestone/
 touch ~/.primestone/primestone.conf
 cat << EOF > ~/.primestone/primestone.conf
-rpcuser=primestoneuser
+rpcuser=kabberryuser
 rpcpassword=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 32 ; echo '')
 txindex=1
 primestonestake=1
@@ -345,7 +345,7 @@ rm -R blocks chainstate
 echo ""
 echo -e "${GREEN}5/6 please wait, installation script downloads Kabberry blockchain ${NC}"
 echo ""
-wget https://github.com/Primestonecoin/PrimeStone/releases/download/v2.4.0/primestone-blockchain.zip
+wget https://github.com/KABBERRY/Kabberry-Coin/releases/download/v2.4.0/primestone-blockchain.zip
 unzip -o primestone-blockchain.zip
 rm -f  primestone-blockchain.zip
 
