@@ -4,7 +4,7 @@
 #:: Copyright // 2019-01-01
 #:: Version: v2.5
 #:: Tested on Ubuntu 18.04 & Ubuntu 16.04
-cat << "PSC"
+cat << "KKC"
 
 
 
