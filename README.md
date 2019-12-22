@@ -1,33 +1,33 @@
 # MN-Script-IPv4
 
 <br>Setup/Update/Reinstall Primestone Masternode IPv4 scrypt:
-<br>apt-get update -y && cd ~/ && sudo apt-get install curl -y && bash <(curl -s https://raw.githubusercontent.com/Primestonecoin/MN-Script-IPv4/master/prime_IPv4.sh) | tee ~/prime_masternode_installation.log
+<br>apt-get update -y && cd ~/ && sudo apt-get install curl -y && bash <(curl -s https://raw.githubusercontent.com/KABBERRY/MN-Script-IPv4/master/prime_IPv4.sh) | tee ~/kabberry_masternode_installation.log
 
 
-<br>WEBSITE PRIMESTONE
-<br>https://primestone.global/
+<br>WEBSITE KABBERRY
+<br>https://kabberry.co 
 <br>BLOCK EXPLORER
-<br>http://primestone-explorer.com/
+<br>http://explorer.kabberry.com
 <br>GITHUB
-<br>https://github.com/Primestonecoin
+<br>https://github.com/KABBERRY
 
-<br>PRIMESTONE WALLETS 2.4
+<br>KABBERRY WALLETS 2.5
 
-<br> Windows wallet 2.4 64bit
+<br> Windows wallet 2.5 64bit
 <br> https://github.com/Primestonecoin/PrimeStone/releases/download/v2.4.0/prime_windows_x64.zip
-<br> Windows wallet 2.4 32bit
+<br> Windows wallet 2.5 32bit
 <br> https://github.com/Primestonecoin/PrimeStone/releases/download/v2.4.0/prime_windows_x86.zip
-<br> Linux wallet 2.4 (Ubuntu 18.04)
+<br> Linux wallet 2.5 (Ubuntu 18.04)
 <br> https://github.com/Primestonecoin/PrimeStone/releases/download/v2.4.0/prime_linux.zip
-<br> Linux wallet 2.4 (Ubuntu 16.04)
-<br> https://github.com/Primestonecoin/PrimeStone/releases/download/v2.4.0/prime_ubuntu_16.zip
+<br> Linux wallet 2.5 (Ubuntu 16.04)
+<br> https://github.com/KABBERRY/Kabberry-Coin/releases/download/v2.5.0/kabberry_ubuntu_16.zip
 
-<br>PRIMESTONE MASTERNODE SETUP MANUALS
+<br>KABBERRY MASTERNODE SETUP MANUALS
 
 <br>Masternode SETUP (windows) 1.3-2.4 version
-<br>http://scripts.primestone.global/MasterNode_WIN_ENG.pdf
+<br>http://scripts.kabberry.com/MasterNode_WIN_ENG.pdf
 <br>Masternode CLEAR SETUP 1.3-2.4 version (VPS)
-<br>http://scripts.primestone.global/Masternode_SETUP_VPS_1.3.pdf
+<br>http://scripts.kabberry.com/Masternode_SETUP_VPS_1.3.pdf
 
 <br>MASTERNODE HOSTING & SHARED NODE SERVICES
 
@@ -45,9 +45,9 @@
 <br>COIN INFO
 
 <br>Whitepaper
-<br>https://primestone.global/wp-content/uploads/2018/06/Primestone-WhitePaper.pdf
+<br>https://kabberry.com/wp-content/uploads/2018/06/Primestone-WhitePaper.pdf
 <br>Documentation
-<br>https://primestone.global/documentation/
+<br>https://kabberry.com/documentation/
 <br>Coinmarketcap
 <br>https://coinmarketcap.com/currencies/primestone
 <br>MNROI
@@ -70,21 +70,19 @@
 <br>SOCIAL
 
 <br>Discord
-<br>https://discord.gg/D6KeMSA
+<br>#
 <br>Twitter
-<br>https://twitter.com/PrimeStone2
+<br>#
 <br>Telegram
-<br>https://t.me/PrimeStone_Coin
+<br>#
 <br>Instagram
-<br>https://www.instagram.com/primestoneglobal
+<br>#
 <br>Facebook
-<br>https://www.facebook.com/PrimeStone.Global
+<br>#
 <br>Reddit
-<br>https://www.reddit.com/r/PrimeStone/
+<br>#
 <br>Bitcointalk
-<br>https://bitcointalk.org/index.php?topic=2963836
-<br>Bitcoin.pl
-<br>https://forum.bitcoin.pl/viewtopic.php?t=29619
+<br>#
 
 <br>EXCHANGES
 
