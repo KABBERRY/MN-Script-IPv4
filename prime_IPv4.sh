@@ -176,7 +176,7 @@ if [ "$OS_version" -eq "1" ]; then
         sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-pthreads-2.0-5 libevent-dev bsdmainutils software-properties-common libminiupnpc-dev libcrypto++-dev libboost-all-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libboost-filesystem-dev libboost-thread-dev libssl-dev libssl-dev software-properties-common unzip libzmq3-dev ufw wget git python-openssl -y
         if [ $? -ne "0" ]; then echo "Unable to install major dependencies" && exit 1; fi
         fi
-# Download primestone sources //
+# Download Kabberry sources //
 echo ""
 echo -e "${GREEN}1/6 Downloading Kabberry sources...${NC}" 
 echo ""
@@ -190,10 +190,10 @@ rm -R -fr kabberry_linux
 
             if [ "$OS_version" -eq "1" ]; then
                 wget https://github.com/KABBERRY/Kabberry-Coin/releases/download/v2.5.0/kabberry_linux.zip
-		if [ $? -ne "0" ]; then echo "Failed to download primestoned binary" && exit 1; fi
+		if [ $? -ne "0" ]; then echo "Failed to download kabberryd binary" && exit 1; fi
             elif [ "$OS_version2" -eq "1" ]; then
                 wget https://github.com/KABBERRY/Kabberry-Coin/releases/download/v2.5.0/kabberry_ubuntu_16.zip
-		if [ $? -ne "0" ]; then echo "Failed to download primestoned binary" && exit 1; fi
+		if [ $? -ne "0" ]; then echo "Failed to download kabberryd binary" && exit 1; fi
             fi
 # Manage coin daemon and configuration //
 unzip -o kabberry*.zip
@@ -265,7 +265,7 @@ sudo echo \
 sudo mv /tmp/$(echo $real_user) /etc/sudoers.d/
 fi
 
-# Start primestone daemon, wait for wallet creation //
+# Start kabberry daemon, wait for wallet creation //
 sudo systemctl start primecore &&
 echo "" ; echo "Please wait for few minutes..."
 sleep 120 &
@@ -311,7 +311,7 @@ do
   printf "\b${sp:i++%${#sp}:1}"
 done
 cat << EOF > ~/.primestone/primestone.conf
-rpcuser=primestoneuser
+rpcuser=kabberryuser
 rpcpassword=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c 32 ; echo '')
 txindex=1
 primestonestake=1
@@ -359,9 +359,9 @@ echo ""
 echo "Setup summary:"
 echo "Masternode privkey: $privkey"
 echo "Your external IPv4 addr: $wanip"
-echo "Installation log: ~/primestone_masternode_installation.log"
+echo "Installation log: ~/kabberry_masternode_installation.log"
 echo "Kabberry Core datadir: "$(echo $HOME/.primestone/)""
 echo ""
-echo -e "Need additional help? Please visit Primestone Discord channel: ${GREEN}https://discord.gg/D6KeMSA${NC}"
+echo -e "Need additional help? Please visit Kabberry Discord channel: ${GREEN}https://discord.gg/D6KeMSA${NC}"
 echo ""
 kabberry-cli getinfo | grep blocks
