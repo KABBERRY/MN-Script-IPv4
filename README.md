@@ -5,7 +5,7 @@
 
 
 <br>WEBSITE KABBERRY
-<br>https://kabberry.co 
+<br>https://kabberry.com 
 <br>BLOCK EXPLORER
 <br>http://explorer.kabberry.com
 <br>GITHUB
