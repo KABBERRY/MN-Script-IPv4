@@ -235,7 +235,7 @@ User=root
 Type=forking
 ExecStart=/usr/bin/kabberryd -daemon -pid=$(echo $HOME)/.primestone/primestoned.pid --datadir=$(echo $HOME)/.primestone/
 PIDFile=$(echo $HOME)/.primestone/primestoned.pid
-ExecStop=/usr/bin/primestone-cli stop
+ExecStop=/usr/bin/kabberry-cli stop
 Restart=always
 RestartSec=3600
 TimeoutStopSec=60s
