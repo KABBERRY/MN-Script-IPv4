@@ -1,6 +1,6 @@
 # MN-Script-IPv4
 
-<br>Setup/Update/Reinstall Primestone Masternode IPv4 scrypt:
+<br>Setup/Update/Reinstall Kabberry Masternode IPv4 scrypt:
 <br>apt-get update -y && cd ~/ && sudo apt-get install curl -y && bash <(curl -s https://raw.githubusercontent.com/KABBERRY/MN-Script-IPv4/master/prime_IPv4.sh) | tee ~/kabberry_masternode_installation.log
 
 
