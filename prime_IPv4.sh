@@ -32,7 +32,7 @@ echo ""
 echo "Good day. This is automated cold masternode setup for Kabberry project. Auto installer was tested on specific environment. Don't try to install masternode with undocumented operating system!"
 echo ""
 echo "Installation content:"
-echo "kabberry core v2.6"
+echo "kabberry core v3.0"
 echo
 echo "Setup can be launched"
 echo "Do you agree?"
