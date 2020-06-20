@@ -11,16 +11,16 @@
 <br>GITHUB
 <br>https://github.com/KABBERRY
 
-<br>KABBERRY WALLETS 2.5
+<br>KABBERRY WALLETS 3.0
 
-<br> Windows wallet 2.5 64bit
-<br> https://github.com/Primestonecoin/PrimeStone/releases/download/v2.4.0/prime_windows_x64.zip
-<br> Windows wallet 2.5 32bit
-<br> https://github.com/Primestonecoin/PrimeStone/releases/download/v2.4.0/prime_windows_x86.zip
-<br> Linux wallet 2.5 (Ubuntu 18.04)
-<br> https://github.com/Primestonecoin/PrimeStone/releases/download/v2.4.0/prime_linux.zip
-<br> Linux wallet 2.5 (Ubuntu 16.04)
-<br> https://github.com/KABBERRY/Kabberry-Coin/releases/download/v2.5.0/kabberry_ubuntu_16.zip
+<br> Windows wallet 3.0 64bit
+<br> https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.0/kabberry_win_x64.zip
+<br> Windows wallet 3.0 32bit
+<br> https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.0/kabberry_win_x86.zip
+<br> Linux wallet 3.0 (Ubuntu 18.04)
+<br> https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.0/kabberry_linux.zip
+<br> Linux wallet 3.0 (Ubuntu 16.04)
+<br> https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.0/kabberry_ubuntu_16.zip
 
 <br>KABBERRY MASTERNODE SETUP MANUALS
 
