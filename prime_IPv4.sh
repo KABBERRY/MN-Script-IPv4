@@ -2,7 +2,7 @@
 
 #:: Kabberry team
 #:: Copyright // 2019-01-01
-#:: Version: v3.0
+#:: Version: v3.1
 #:: Tested on Ubuntu 18.04 & Ubuntu 16.04
 cat << "PSC"
 
@@ -32,7 +32,7 @@ echo ""
 echo "Good day. This is automated cold masternode setup for Kabberry project. Auto installer was tested on specific environment. Don't try to install masternode with undocumented operating system!"
 echo ""
 echo "Installation content:"
-echo "kabberry core v3.0"
+echo "kabberry core v3.1"
 echo
 echo "Setup can be launched"
 echo "Do you agree?"
@@ -88,7 +88,7 @@ read wan
 					cd ~ &&
 					rm -fr kabberry-cli kabberryd kabberry-tx kabberry_linux.zip &&
 					echo -e "${GREEN}2/5 Old Kabberry wallet is deleted${NC}" &&
-					wget https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.0/kabberry_linux.zip &&
+					wget https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.1.99/kabberry_linux.zip &&
 					echo -e "${GREEN}3/5 Kabberry wallet is downloaded${NC}" &&
 					unzip -o kabberry*.zip &&
 					sudo cp -fr kabberry-cli kabberryd /usr/bin/ &&
@@ -189,7 +189,7 @@ rm -fr kabberry*.zip
 rm -R -fr kabberry_linux
 
             if [ "$OS_version" -eq "1" ]; then
-                wget https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.0/kabberry_linux.zip
+                wget https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.1.99/kabberry_linux.zip
 		if [ $? -ne "0" ]; then echo "Failed to download kabberryd binary" && exit 1; fi
             elif [ "$OS_version2" -eq "1" ]; then
                 wget https://github.com/KABBERRY/Kabberry-Coin/releases/download/v3.0/kabberry_ubuntu_16.zip
